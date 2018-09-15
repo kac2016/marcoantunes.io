@@ -1,7 +1,7 @@
 import React from "react";
 import HeadlineWithFocus from "../components/HeadlineWithFocus";
 import Obfuscate from "react-obfuscate";
-import { FaEnvelopeO, FaTwitter, FaGithub } from "react-icons/lib/fa/";
+import { FaEnvelopeO, FaTwitter, FaGithub, FaLinkedin } from "react-icons/lib/fa/";
 import Helmet from "react-helmet";
 
 export default props => {
@@ -10,7 +10,7 @@ export default props => {
       <Helmet title="Contact me" />
 
       <HeadlineWithFocus>
-        You can get in touch <span>anytime through</span>
+        Feel free to <span>reach out</span>
       </HeadlineWithFocus>
       <ul className="c-contact-list">
         <li className="c-contact-list__item">
@@ -31,6 +31,16 @@ export default props => {
           <FaGithub />
           <a
             href="https://github.com/marcoantonioantunes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            marcoantonioantunes
+          </a>
+        </li>
+        <li className="c-contact-list__item">
+          <FaLinkedin />
+          <a
+            href="https://www.linkedin.com/in/marcoantonioantunes/"
             target="_blank"
             rel="noopener noreferrer"
           >

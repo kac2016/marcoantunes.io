@@ -19,10 +19,10 @@ class DefaultLayout extends React.Component {
     return (
       <div className="l-page-wrapper">
         <Helmet
-          title="I am a front-end developer"
+          title="I'm a full-stack developer"
           meta={[{ 
             name: 'description', 
-            content: `I build web interfaces using: JavaScrip, ES2015, Babel, HTML5, CSS, CSS3, BEM, React, Gatsby, Webpack ...` 
+            content: `I build web interfaces using: Javascript, ES6, Babel, HTML5, CSS, CSS3, React, Gatsby, Webpack ...` 
           }]}
         />    
           

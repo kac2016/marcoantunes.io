@@ -4,18 +4,25 @@ import Link from "gatsby-link";
 const MainFooter = () => (
   <div className="c-main-footer">
     <p className="c-main-footer__note">
-      Build with{" "}
+      Built with{" "}
       <a
         href="https://graphql.org/"
         target="_blank"
         rel="noopener noreferrer"
       >
         GraphQL
-      </a>{" "}
-      and{" "}
+      </a>,{" "}
       <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
         React
-      </a>. Hosted on{" "}
+      </a>{" "}and{" "}
+      <a
+        href="https://www.gatsbyjs.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Gatsby.js
+      </a>
+      . Hosted on{" "}
       <a
         href="https://www.netlify.com/"
         target="_blank"
