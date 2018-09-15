@@ -3,12 +3,6 @@
 That's the code of my website (marcoantunes.io). My first production-use of the Gatsby-React tandem.
 
 
-
-## Screenshots
-![](static/assets/readme-screens.png)
-
-
-
 ### Build with
 
 * [Gatsby](https://github.com/gatsbyjs/gatsby)
