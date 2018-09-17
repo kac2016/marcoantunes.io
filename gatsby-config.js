@@ -16,13 +16,6 @@ module.exports = {
         precision: 8
       }
     },
-    `gatsby-plugin-netlify`,
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: ""
-      }
-    }
+    `gatsby-plugin-netlify`
   ]
 }
