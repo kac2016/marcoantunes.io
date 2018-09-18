@@ -12,5 +12,5 @@ export const wrapRootElement = ({ element }) => {
         </Provider>
     )
 
-    return ConnectedRootElement
+   return ConnectedRootElement
 }
