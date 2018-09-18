@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import Obfuscate from 'react-obfuscate';
 import { FaPaperPlaneO, FaWrench } from 'react-icons/lib/fa';
 

@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react';
+import { Link, graphql } from 'gatsby';
 
 const MainFooter = () => (
   <div className="c-main-footer">
