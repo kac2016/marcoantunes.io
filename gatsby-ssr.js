@@ -8,7 +8,7 @@ exports.replaceRenderer = ({ bodyComponent, replaceBodyHTMLString }) => {
 
     const store = createStore()
 
-    const ConnectedBody = () => (
+    const ConnectedBody = (
         <Provider store={store}>
             {bodyComponent}
         </Provider>
