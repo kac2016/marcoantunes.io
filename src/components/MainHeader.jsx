@@ -8,7 +8,10 @@ const MainHeader = (props) => (
     <Link 
       to="/" 
       className="c-main-header__logo"
-    >     
+    >
+      <Avatar 
+        modifierClasses="c-avatar--as-logo"
+      />
     </Link>
     <div className="c-main-header__nav">
       <MainNav />
