@@ -1,7 +1,7 @@
 import React from "react";
 import HeadlineWithFocus from "../components/HeadlineWithFocus";
 import Obfuscate from "react-obfuscate";
-import { FaEnvelopeO, FaTwitter, FaGithub, FaLinkedin } from "react-icons/lib/fa/";
+import { FaEnvelopeO, FaTwitter, FaGithub, FaLinkedin } from "react-icons";
 import Helmet from "react-helmet";
 
 export default props => {

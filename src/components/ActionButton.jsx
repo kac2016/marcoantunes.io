@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "gatsby";
 import PropTypes from 'prop-types';
 
-import { FaArrowRight, FaClose, FaInfo } from 'react-icons/lib/fa/';
+import { FaArrowRight, FaClose, FaInfo } from 'react-icons';
 
 const ActionButton = ({ 
   topPx, 

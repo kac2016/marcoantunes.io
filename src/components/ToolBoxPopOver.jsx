@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaClose } from 'react-icons/lib/fa/'; 
+import { FaClose } from 'react-icons'; 
 import Avatar from '../components/Avatar';
 
 const ToolBoxPopOver = ({ 

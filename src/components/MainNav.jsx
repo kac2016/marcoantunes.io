@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { FaMapMarker, FaEnvelopeO, FaPaperPlaneO, FaWrench, FaChevronDown, FaChevronUp } from 'react-icons/lib/fa';
-import { TiCodeOutline } from 'react-icons/lib/ti';
+import { FaMapMarker, FaEnvelopeO, FaPaperPlaneO, FaWrench, FaChevronDown, FaChevronUp } from 'react-icons';
+import { TiCodeOutline } from 'react-icons';
 
 const ListLink = (props) => (
   <li className="c-main-nav__elem" >
