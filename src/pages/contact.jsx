@@ -10,7 +10,7 @@ export default props => {
       <Helmet title="Contact me" />
 
       <HeadlineWithFocus>
-        Feel free to <span>reach out</span>
+        Feel free<span>to reach out</span>
       </HeadlineWithFocus>
       <ul className="c-contact-list">
         <li className="c-contact-list__item">
