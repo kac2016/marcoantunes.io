@@ -12,7 +12,7 @@ const Index = props => {
           c-headline-focus--super-big 
         `}
       >
-        I'm a full-stack developer
+        I'm a front-end developer
       </HeadlineWithFocus>
       <h2
         className={`
